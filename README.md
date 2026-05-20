@@ -2,56 +2,92 @@
 
 ## 📌 Internship Project
 This project is developed as part of the **Thiranex Internship Program**.  
-It focuses on designing and implementing a **low-fidelity mobile app wireframe UI** for a study planner application called **StudyMate**.
+It focuses on designing a **low-fidelity mobile application wireframe** for a study planner app called **StudyMate**.
 
 ---
 
 ## 🎯 Objective
-To understand and apply early-stage UI/UX design principles including:
-- User flow creation
-- Layout structuring
-- Wireframing of mobile application screens
-- Basic frontend implementation using HTML & CSS
+The objective of this task is to understand and apply early-stage UI/UX design principles, including:
+
+- User flow creation  
+- Information architecture  
+- Mobile app wireframing  
+- Layout structuring  
+- Basic frontend implementation using HTML & CSS  
 
 ---
 
 ## 📱 Project Overview
-StudyMate is a productivity-based mobile application UI inspired by apps like MyStudyLife.  
-It helps students manage:
-- Daily schedule
-- Academic tasks
-- Study planning
-- Productivity tracking
+**StudyMate** is a productivity-focused mobile app concept inspired by tools like MyStudyLife.
+
+It helps students efficiently manage:
+
+- Daily schedules  
+- Academic tasks  
+- Study planning  
+- Productivity tracking  
 
 ---
 
 ## 🖥️ Screens Designed
-The following screens are included in this wireframe:
+The wireframe includes the following screens:
 
-- Splash / Landing Section
-- Onboarding UI Concept
-- Login Screen Layout
-- Dashboard (Main Screen ⭐)
-- Schedule Section
-- Tasks Management Screen
-- Profile UI Concept
+- Splash / Landing Screen  
+- Onboarding Screens  
+- Login Screen  
+- Dashboard (Main Screen ⭐)  
+- Schedule Screen  
+- Tasks Management Screen  
+- Profile Screen  
 
 ---
 
 ## 🛠️ Tech Stack Used
-- HTML5
-- CSS3
-- UI/UX Wireframing Concepts
+- HTML5  
+- CSS3  
+- UI/UX Wireframing Concepts  
 
 ---
 
 ## 🎨 Design Approach
-- Clean and structured layout
-- Card-based UI system
-- Mobile-first design approach
-- Simple color-coded badges for clarity
-- Gradient-based modern UI styling
+This project follows a clean low-fidelity wireframing approach:
+
+- Card-based layout structure  
+- Mobile-first design approach  
+- Consistent spacing system  
+- Minimal and structured UI blocks  
+- Simple visual hierarchy for better usability  
 
 ---
 
 ## 📂 Project Structure
+
+task-1-mobile-wireframing/
+│
+├── index.html
+└── README.md
+
+
+---
+
+## 🧠 Learning Outcomes
+Through this task, I gained understanding of:
+
+- Mobile app wireframing process  
+- User flow and navigation design  
+- UI layout structuring principles  
+- GitHub project workflow and submission  
+- Basic frontend implementation  
+
+---
+
+## 🚀 Project Status
+✔ Completed  
+✔ Submitted via GitHub  
+✔ Ready for evaluation  
+
+---
+
+## 👩‍💻 Author
+**Golla Jahnavi**  
+Thiranex Internship Participant  
