@@ -90,3 +90,4 @@ Through this task, I gained understanding of:
 
 ## 👩‍💻 Author
 **Golla Jahnavi**  
+Thiranex Internship Participant  
