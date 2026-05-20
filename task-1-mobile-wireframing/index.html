@@ -1,1 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudyMate</title>
 
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI", sans-serif;
+}
+
+body{
+  background:#f5f7ff;
+  color:#111;
+}
+
+/* TOP BAR */
+.topbar{
+  height:64px;
+  width:100%;
+  background:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 24px;
+  border-bottom:1px solid #eee;
+  position:sticky;
+  top:0;
+}
+
+.logo{
+  font-weight:800;
+  font-size:18px;
+  background:linear-gradient(90deg,#4f46e5,#9333ea);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.nav{
+  display:flex;
+  gap:20px;
+  font-size:14px;
+  color:#555;
+}
+
+.nav div{
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.nav div:hover{
+  color:#4f46e5;
+}
+
+/* MAIN */
+.container{
+  padding:24px;
+}
+
+/* HERO */
+.hero{
+  background:linear-gradient(135deg,#4f46e5,#9333ea);
+  color:white;
+  padding:24px;
+  border-radius:16px;
+  margin-bottom:20px;
+}
+
+.hero h1{
+  font-size:22px;
+}
+
+.hero p{
+  opacity:0.9;
+  font-size:14px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:16px;
+}
+
+/* CARD */
+.card{
+  background:white;
+  border-radius:14px;
+  padding:16px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.06);
+  border:1px solid #f0f0f0;
+}
+
+/* HEADINGS */
+h2{
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+/* BADGES */
+.badge{
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+  margin-right:6px;
+  margin-top:6px;
+}
+
+.blue{background:#e0e7ff;color:#4f46e5;}
+.green{background:#dcfce7;color:#16a34a;}
+.red{background:#fee2e2;color:#dc2626;}
+
+/* TASK */
+.task{
+  display:flex;
+  justify-content:space-between;
+  padding:10px 0;
+  border-bottom:1px solid #f3f3f3;
+}
+
+/* BUTTON */
+.btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:linear-gradient(135deg,#4f46e5,#9333ea);
+  color:white;
+  margin-top:10px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.btn:hover{
+  transform:scale(1.02);
+}
+
+/* HIGHLIGHT BOX */
+.highlight{
+  background:linear-gradient(135deg,#e0e7ff,#f5f3ff);
+  border-radius:14px;
+  padding:12px;
+  margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TOP -->
+<div class="topbar">
+  <div class="logo">StudyMate</div>
+
+  <div class="nav">
+    <div>Home</div>
+    <div>Schedule</div>
+    <div>Tasks</div>
+    <div>Profile</div>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Hello... Jahnavi 👋</h1>
+    <p>Let’s make today productive & organized</p>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid">
+
+    <!-- OVERVIEW -->
+    <div class="card">
+      <h2>Overview</h2>
+
+      <span class="badge blue">Tasks: 5</span>
+      <span class="badge green">Classes: 3</span>
+      <span class="badge red">Pending: 2</span>
+
+      <div class="highlight">
+        You are 75% productive today 🚀
+      </div>
+    </div>
+
+    <!-- SCHEDULE -->
+    <div class="card">
+      <h2>Schedule</h2>
+
+      <div class="task">
+        <span>Java Class</span>
+        <span class="badge blue">9:00</span>
+      </div>
+
+      <div class="task">
+        <span>DBMS</span>
+        <span class="badge green">11:00</span>
+      </div>
+
+      <div class="task">
+        <span>UI Design</span>
+        <span class="badge red">2:00</span>
+      </div>
+
+    </div>
+
+    <!-- TASKS -->
+    <div class="card">
+      <h2>Tasks</h2>
+
+      <div class="task">
+        <span>Java Assignment</span>
+        <input type="checkbox">
+      </div>
+
+      <div class="task">
+        <span>UI Wireframe</span>
+        <input type="checkbox">
+      </div>
+
+      <div class="task">
+        <span>DBMS Revision</span>
+        <input type="checkbox">
+      </div>
+
+      <button class="btn">+ Add Task</button>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
